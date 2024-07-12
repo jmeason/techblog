@@ -1,0 +1,12 @@
+<!-- views/dashboard.handlebars -->
+<section>
+  <h2>Your Dashboard</h2>
+  <button id="new-post">New Post</button>
+  {{#each posts}}
+  <article>
+    <h3>{{this.title}}</h3>
+    <p>{{this.description}}</p>
+    <a href="/edit/{{this.id}}">Edit</a> | <a href="/delete/{{this.id}}">Delete</a>
+  </article>
+  {{/each}}
+</section>
