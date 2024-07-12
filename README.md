@@ -9,7 +9,5 @@ Initialize database
 ## Technologie used 
 handlbars.js, postgresSQL, byrypt for pasword hashing
 ## Running the application
-psql -U postgress
-npm run seed
-npm run start
-Once the server is running acces Test Blog in web browswer at [ http://localhost:3001/ ]
+npm run start in terminal 
+Once the server is running acces Test Blog in web browswer at http://localhost:3001/
