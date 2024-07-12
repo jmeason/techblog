@@ -12,4 +12,4 @@ handlbars.js, postgresSQL, byrypt for pasword hashing
 psql -U postgress
 npm run seed
 npm run start
-Once the server is running acces Test Blog in web browswer at [http://localhost:3001/]
+Once the server is running acces Test Blog in web browswer at [ http://localhost:3001/ ]
